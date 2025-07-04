@@ -9,7 +9,7 @@ pubdates = []
 
 load_dotenv()
 api_key = os.getenv("API_KEY")
-url = f"https://newsdata.io/api/1/latest?apikey={api_key}&q=India"
+url = f"https://newsdata.io/api/1/latest?apikey={api_key}"
 resp = requests.get(url)
 print(resp.text)
 if resp.status_code == 200:
