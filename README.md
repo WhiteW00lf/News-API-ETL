@@ -32,4 +32,6 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+2. To automate the entire ETL process, you can schedule a job with cron or windows scheduler to run ``` main.py ``` once at your prefered time of the day.
+
 
