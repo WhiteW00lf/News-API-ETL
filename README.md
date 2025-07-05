@@ -1,7 +1,7 @@
 # News-API-ETL
 # 📰 News ETL Pipeline
 
-This project extracts the latest news data from the [NewsData.io API](https://newsdata.io/), transforms and cleans it, and loads it into a local database or file for analysis.
+This project extracts the latest news data from the [NewsData.io API](https://newsdata.io/), transforms and cleans it, and loads it into a local database for analysis.
 
 ---
 
@@ -9,7 +9,7 @@ This project extracts the latest news data from the [NewsData.io API](https://ne
 
 - **Extract**: Fetches live news data using NewsData.io API.
 - **Transform**: Cleans and structures the data into a pandas DataFrame.
-- **Load**: Stores the cleaned data into a CSV file or a SQLite database.
+- **Load**: Stores the cleaned data into a SQLite database.
 
 ---
 
@@ -28,4 +28,7 @@ This project extracts the latest news data from the [NewsData.io API](https://ne
 ```bash
 git clone https://github.com/WhiteW00lf/News-API-ETL-.git
 cd news-etl-pipeline
+python3 main.py
+```
+
 
