@@ -28,6 +28,7 @@ This project extracts the latest news data from the [NewsData.io API](https://ne
 ```bash
 git clone https://github.com/WhiteW00lf/News-API-ETL-.git
 cd news-etl-pipeline
+pip install -r requirements.txt
 python3 main.py
 ```
 
