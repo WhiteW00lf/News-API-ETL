@@ -1,6 +1,7 @@
-from transform import news_df
+from transform import transformation
 from sqlalchemy import create_engine
 
 
-eng = create_engine("sqlite:///newsdatabase.db")
-news_df.to_sql("news", con=eng, if_exists="replace", index=False)
+def load_db(mydb):
+    eng = create_engine("sqlite:///database/newsdatabase.db")
+    mydb.to_sql("news", con=eng, if_exists="replace", index=False)
